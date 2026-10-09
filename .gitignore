@@ -1,0 +1,31 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
+.DS_Store
+
+# Platforms we don't ship yet
+ios/
+linux/
+macos/
+windows/
+
+# Android: commit the project, never the secrets or local paths
+android/local.properties
+android/key.properties
+android/app/upload-keystore.jks
+*.jks
+*.keystore
+key.properties
+/android/.gradle/
+/android/app/.cxx/
+
+# field check: images are made by field_check/make_cases.py
+field_check/images/
+field_check/results.json
+field_check/run.log
+*.log
